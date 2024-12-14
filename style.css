@@ -89,3 +89,96 @@ button{
 button:hover{
     background-color: #01bc6e;
 }
+
+
+@media (max-width: 1024px) {
+    body {
+        padding: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .texto {
+        width: 100%;
+    }
+
+    .imagem {
+        margin-top: 150px; 
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: 50px; 
+    }
+
+    span {
+        font-size: 60px; 
+    }
+
+    .imagem-copo {
+        width: 300px; 
+    }
+
+    button {
+        padding: 8px; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .conteudo {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .texto {
+        width: 100%; 
+    }
+
+    .imagem {
+        margin-top: 50px; 
+    }
+
+    h2 {
+        font-size: 40px; 
+    }
+
+    span {
+        font-size: 50px; 
+    }
+
+    .imagem-copo {
+        width: 250px; 
+    }
+
+    .botao-menu {
+        width: 50px; 
+    }
+
+    button {
+        padding: 6px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 30px; 
+    }
+
+    span {
+        font-size: 40px;
+    }
+
+    .imagem-copo {
+        width: 200px; 
+    }
+
+    .circulo {
+        clip-path: circle(400px at right 600px); 
+    }
+}
